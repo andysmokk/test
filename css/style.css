@@ -1,50 +1,51 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: 'Roboto', 'arial' sans-serif;
+    font-family: 'Roboto', 'arial' sans-serif;
 }
 
 li {
-  list-style: none;
+    list-style: none;
 }
 
-header .logo {
-  font-family: 'Raleway';
-  font-size: 26px;
-  font-weight: 700;
-  color: #2196f3;
-  text-decoration: none;
+.pege header .logo {
+    font-family: 'Raleway';
+    font-size: 26px;
+    font-weight: 700;
+    color: #2196f3;
+    text-decoration: none;
 }
 
 header .nabvar li .current {
-  font-family: 'Roboto';
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  color: #2196f3;
-  text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #2196f3;
+    text-decoration: none;
+    text-align: center;
 }
 
 header .nabvar .nav-link {
-  font-family: 'Roboto';
-  font-weight: 500;
-  font-size: 18px;
-  color: #212121;
-  text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 18px;
+    color: #212121;
+    text-decoration: none;
 }
 
 header .nav-contact .nav-link-contact {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  color: #757575;
-  text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+    text-decoration: none;
 }
 
 .nav-menu .nav-link:hover,
@@ -52,165 +53,159 @@ header .nav-contact .nav-link-contact {
 .nav-menu .nav-link .current,
 .nav-contact .nav-link-contact:hover,
 .nav-contact .nav-link-contact:focus {
-  color: #ffffff;
+    color: #2196f3;
 }
 
 .hero {
-  background-color: #2f303a;
-  height: 300px;
+    background-color: #2f303a;
+    /* height: 300px; */
 }
 
 .hero .hero-title {
-  font-family: 'Roboto';
-  font-weight: 900;
-  font-size: 44px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #ffffff;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 44px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    /* nuevo */
+    height: 120px;
+    width: 696px;
+    left: 448px;
+    top: 280px;
+    border-radius: undefinedpx;
+    margin-left: 22%;
 }
 
 .hero .button-primary {
-  background: #2196f3;
-  color: #ffffff;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  cursor: pointer;
+    background: #2196f3;
+    color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 .section-title-oculto {
-  display: none;
+    display: none;
 }
 
 .section-feature .title {
-  font-family: 'Roboto';
-  font-weight: 700;
-  font-size: 14px;
-  text-transform: uppercase;
-  color: #212121;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #212121;
+    display: flex;
 }
 
 .section-feature .decription {
-  font-family: 'Roboto';
-  font-weight: 400;
-  font-size: 14px;
-  color: #757575;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    color: #757575;
 }
 
 .section.wha-we-do .section-title {
-  font-family: 'Roboto';
-  font-weight: 700;
-  font-size: 36px;
-  text-align: center;
-  color: #212121;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    color: #212121;
 }
 
 .section-our-team .section-title {
-  font-family: 'Roboto';
-  font-weight: 700;
-  font-size: 36px;
-  text-align: center;
-  color: #212121;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    color: #212121;
 }
 
 .section-our-team .user1 {
-  font-family: 'Roboto';
-  font-weight: 500;
-  font-size: 16;
-  color: #212121;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16;
+    color: #212121;
 }
 
 .section-our-team .decription-user {
-  font-family: 'Roboto';
-  font-weight: 400;
-  font-size: 16px;
-  color: #757575;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
 }
 
 .footbar {
-  background-color: #2f303a;
+    background-color: #2f303a;
 }
 
 .footbar .logo {
-  font-family: 'Raleway';
-  font-weight: 700;
-  font-size: 26px;
-  color: #2196f3;
-  text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    color: #2196f3;
+    text-decoration: none;
 }
 
 .footbar .contact {
-  font-family: 'Roboto';
-  font-weight: 400;
-  font-size: 14px;
-  color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }
 
 .footbar .contact:hover,
 .footbar .contact:focus {
-  color: #ffffff;
+    color: #ffffff;
 }
+
 
 /* .nav-munu {
     display: flex;
 } */
 
+
 /*PORTAFOLIO*/
 
 .portafolio .list li .button-current {
-  font-family: 'Roboto';
-  font-weight: 500;
-  font-size: 16;
-  color: #ffffff;
-  cursor: pointer;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16;
+    color: #ffffff;
+    cursor: pointer;
 }
 
 .portafolio .list li .button {
-  font-family: 'Roboto';
-  font-weight: 500;
-  font-size: 16;
-  color: #212121;
-  cursor: pointer;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16;
+    color: #212121;
+    cursor: pointer;
 }
 
 .portafolio .list li .button-current:hover,
 .portafolio .list li .button-current:focus,
 .portafolio .list li .button:hover,
 .portafolio .list li .button:focus {
-  color: #212121;
-  background-color: #2196f3;
+    color: #212121;
+    background-color: #2196f3;
 }
 
 .portafolio .list-card .portafolio-text {
-  font-family: 'Roboto';
-  font-weight: 700;
-  font-size: 18;
-  color: #212121;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18;
+    color: #212121;
 }
 
 .portafolio .list-card .portafolio-title {
-  font-family: 'Roboto';
-  font-weight: 400;
-  font-size: 16;
-  color: #757575;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16;
+    color: #757575;
 }
 
 .nabvar-portafolio {
-  background-color: #219690;
+    background-color: #219690;
 }
-
-/* .section-our-team {
-  display: flex;
-}
-
-.item-1 {
-  display: flex;
-}
-
-.section-title {
-  display: flex;
-}
-
-.section-features {
-  display: flex;
-} */

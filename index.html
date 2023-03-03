@@ -6,117 +6,150 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="#">Web Studio</a>
-            <ul>
+    <header class="page-header">
+        <nav class="nabvar">
+            <a class="logo" href="#">Web Studio</a>
+            <ul class="nav-menu">
                 <li>
-                    <a href="#" target="_blank"></a>Estudio</li>
+                    <a class="nav-link current" href="index.html">Estudio</a>
+                </li>
                 <li>
-                    <a href="#" target="_blank"></a>Portafolio</li>
+                    <a class="nav-link" href="portafolio.html">Portafolio</a>
+                </li>
                 <li>
-                    <a href="#" target="_blank"></a>Contactos</li>
+                    <a class="nav-link" href="index.html">Contactos</a>
+                </li>
             </ul>
         </nav>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+525555296000">tel:+525555296000</a>
+        <ul class="nav-contact">
+            <li>
+                <a class="nav-link-contact" href="mailto:info@devstudio.com">info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a class="nav-link-contact" href="tel:+525555296000"
+            >+52 55 55 29 60 00</a
+          >
+        </li>
+      </ul>
     </header>
     <main>
-        <h1>SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
-        <button>Solicite nuestro servicio</button>
+      <section class="hero">
+        <h1 class="hero-title">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
+        <button class="button-primary" type="button">
+          Solicite nuestro servicio
+        </button>
+      </section>
 
-        <section>
-            <h2>Nuestras ventajas</h2>
-            <ul>
-                <li>
-                    <h3>ATENCIÓN A LOS DETALLES</h3>
-                    <p>
-                        Nos adentramos en todos los detalles y procesos de su negocio, para así desarrollar una solución a su medida.
-                    </p>
-                </li>
-                <li>
-                    <h3>PUNTUALIDAD</h3>
-                    <p>
-                        Con nosotros, usted puede sentirse seguro y protegido. Un principio importante de la empresa: respetar su tiempo y respetar los plazos acordados.
-                    </p>
-                </li>
-                <li>
-                    <h3>PLANIFICACIÓN</h3>
-                    <p>
-                        Usted podrá observar y participar en cada fase del desarrollo y aplicación de soluciones.
-                    </p>
-                </li>
-                <li>
-                    <h3>TEGNOLOGÍA MODERNA</h3>
-                    <p>
-                        Usamos herramientas innovadoras para resolver las tareas asignadas. Es hora de simplificar los procesos laborales.
-                    </p>
-                </li>
-            </ul>
-            <section>
-                <h2>A qué nos dedicamos</h2>
-                <ul>
-                    <li>
-                        <img src="images/imagen.jpg" width="373" alt="typing on keyboard" />
-                    </li>
-                    <li>
-                        <img src="images/imagen2.jpg" width="373" alt="checking phone" />
-                    </li>
-                    <li>
-                        <img src="images/imagen3.jpg" width="373" alt="Looking at the design" />
-                    </li>
-                </ul>
-                <section>
-                    <h2>Nuestro Equipo</h2>
-                    <ul>
-                        <li>
-                            <img src="images/imagen4.jpg" width="300" alt="first Member" />
-
-                            <h3>Andrés Cubo</h3>
-                            <p>Diseñador de Productos</p>
-                        </li>
-
-                        <li>
-                            <img src="images/imagen5.jpg" width="300" alt="second Member" />
-                            <h3>Carla Palacios</h3>
-                            <p>Desarrolladora Frontend</p>
-                        </li>
-                        <li>
-                            <img src="images/imagen6.jpg" width="300" alt="third Member" />
-                            <h3>Mario Dorado</h3>
-                            <p>Marketing</p>
-                        </li>
-                        <li>
-                            <img src="images/imagen7.jpg" width="300" alt="fourth Member" />
-                            <h3>Pablo Mijangos</h3>
-                            <p>Diseñador IU</p>
-                        </li>
-                    </ul>
-                </section>
-            </section>
-        </section>
-    </main>
-    <footer>
-        <a href="#">Web Studio</a>
-        <address>
+      <section class="section-features">
+        <h2 class="section-title-oculto">Nuestras ventajas</h2>
         <ul>
           <li>
-            <a href="#" target="_blank"
+            <h3 class="title">ATENCIÓN A LOS DETALLES</h3>
+            <p class="descriction">
+              Nos adentramos en todos los detalles y procesos de su negocio,
+              para así desarrollar una solución a su medida.
+            </p>
+          </li>
+          <li>
+            <h3 class="title">PUNTUALIDAD</h3>
+            <p class="descriction">
+              Con nosotros, usted puede sentirse seguro y protegido. Un
+              principio importante de la empresa: respetar su tiempo y respetar
+              los plazos acordados.
+            </p>
+          </li>
+          <li>
+            <h3 class="title">PLANIFICACIÓN</h3>
+            <p class="descriction">
+              Usted podrá observar y participar en cada fase del desarrollo y
+              aplicación de soluciones.
+            </p>
+          </li>
+          <li>
+            <h3 class="title">TEGNOLOGÍA MODERNA</h3>
+            <p class="descriction">
+              Usamos herramientas innovadoras para resolver las tareas
+              asignadas. Es hora de simplificar los procesos laborales.
+            </p>
+          </li>
+        </ul>
+        <section class="section-wha-we-do">
+          <h2 class="section-title">A qué nos dedicamos</h2>
+          <ul>
+            <li>
+              <img src="images/imagen.jpg" width="373" alt="typing" />
+            </li>
+            <li>
+              <img src="images/imagen2.jpg" width="373" alt="checking phone" />
+            </li>
+            <li>
+              <img
+                src="images/imagen3.jpg"
+                width="373"
+                alt="Looking at the design"
+              />
+            </li>
+          </ul>
+          <section class="section-our-team">
+            <h2 class="section-title">Nuestro Equipo</h2>
+
+            <ul class="item-1">
+              <li>
+                <img src="images/imagen4.jpg" width="270" alt="first Member" />
+
+                <h3 class="user1">Andrés Cubo</h3>
+                <p class="description-user">Diseñador de Productos</p>
+              </li>
+
+              <li>
+                <img src="images/imagen5.jpg" width="270" alt="second Member" />
+                <h3 class="user1">Carla Palacios</h3>
+                <p class="description-user">Desarrolladora Frontend</p>
+              </li>
+              <li>
+                <img src="images/imagen6.jpg" width="270" alt="third Member" />
+                <h3 class="user1">Mario Dorado</h3>
+                <p class="description-user">Marketing</p>
+              </li>
+              <li>
+                <img src="images/imagen7.jpg" width="270" alt="fourth Member" />
+                <h3 class="user1">Pablo Mijangos</h3>
+                <p class="description-user">Diseñador IU</p>
+              </li>
+            </ul>
+          </section>
+        </section>
+      </section>
+    </main>
+    <footer class="footbar">
+      <a class="logo" href="#">Web Studio</a>
+                <address>
+        <ul>
+          <li>
+            <a class="contact" href="#" target="_blank"
               >Calz. Ticomán 500, Ciudad de México, CDMX, México</a
             >
           </li>
           <li>
-            <a href="mailto:info@example.com">info@example.com</a>
+            <a class="contact" href="mailto:info@example.com"
+              >info@example.com</a
+            >
           </li>
           <li>
-            <a href="tel:info@example.com">info@example.com</a>
+            <a class="contact" href="tel:info@example.com">info@example.com</a>
           </li>
         </ul>
       </address>
-    </footer>
+                </footer>
 </body>
 
 </html>
